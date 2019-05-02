@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	
+	<title>Bootstrap Testing</title>
+</head>
+<body style="background-color: #FFFAF0">
+
+	<div class="container">
+		<div class="row" style="padding-top: 5%">
+			<div class="col-md">
+				<div class="card bg-light">
+					
+					<div class="card-head text-center">
+						<h3>Welcome to BookingNumbers</h3>
+						<small>By BevTec</small>
+					</div>
+					
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="LoginUsername">Username</label>
+								<input class="form-control form-control-lg" placeholder="Username" id="LoginUsername" required></input>
+							</div>
+							
+							<div class="form-group">
+								<label for="LoginPassword">Password</label>
+								<input class="form-control form-control-lg" placeholder="Password" id="LoginPassword" type="password" required></input>
+							</div>
+							
+							<button class="btn btn-success" style="width:100%" type="submit"><h2>Login</h2></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="col-md-7">
+				<div class="card border-danger" style="width: 100%">
+					<!--<h1 class="card-header text-center">Messages</h1>-->
+					<div class="card-header">
+						<div class="row">
+							<div class="col-md-10">
+								<h1 class="text-center">Messages</h1>
+							</div>
+							<div class="col-md-2">
+								<input type="checkbox" class="form-check-input" id="messagecheck"></input>
+								<label for="messagecheck" class="form-check-label">Show Full Archive</label>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="card-body text-danger">
+						
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<h5 class="card-title">Website not complete</h5>
+								<p class="card-text">We are aware of this issue and are working to fix this. Please stop sending us angry emails.</p>
+							</li>
+							
+							<li class="list-group-item">
+								<h5 class="card-title">Dashboard calling users rude names</h5>
+								<p class="card-text">This issue has been delt with, one of the developers just had a bad week and needed 
+								something to lash out with. Poor guy. He has subsequently been executed for his misdeeds.</p>
+							</li>
+							
+							<li class="list-group-item">
+								<h5 class="card-title">New Supreme Commander</h5>
+								<p class="card-text">As you may be aware, a new supreme command has been "voted" in as the high command of
+								BevTec commercial solutions. I for one would like to welcome our new overlord. All hail supreme commander Tony.</p>
+							</li>
+						</ul>
+							
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+</body>
+</html>
